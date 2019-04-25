@@ -53,6 +53,10 @@ body {
 
 .favourites-container {}
 
+/*.footer-copyright {*/
+/*    padding: 0;*/
+/*}*/
+
 /* Page Headers */
 
 .page-header {
@@ -178,6 +182,7 @@ body {
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
+    color: white;
 }
 
 .feature {
@@ -199,4 +204,12 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.feature .btn:hover,
+.feature .btn:active,
+.feature .btn:focus,
+.feature .btn:active:focus {
+    background-color: #efefef;
+    border-color: #efefef;
 }
